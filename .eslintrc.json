@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "plugins": ["jasmine"],
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jasmine": true
+    },
+
+    "extends":[ "plugin:jasmine/recommended", "airbnb-base"],
+    "parserOptions": {
+        "ecmaVersion": 2017
+    },
+
+    "rules": {
+        "jasmine/no-focused-tests": [0],
+        "jasmine/no-suite-dupes": [
+            "error",
+            "branch"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "new-bowling-challenge",
+  "version": "1.0.0",
+  "description": "2018 Bowling challenge",
+  "main": "jquery-3.2.1.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jasmine": "^2.10.1"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meta-morpho-sys/new-bowling-challenge.git"
+  },
+  "author": "Yuliya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meta-morpho-sys/new-bowling-challenge/issues"
+  },
+  "homepage": "https://github.com/meta-morpho-sys/new-bowling-challenge#readme"
+}
